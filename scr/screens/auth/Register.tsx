@@ -47,11 +47,11 @@ const Register = ({ navigation } : RegisterScreenProps) => {
                                     source={IMAGES.logo}
                                 />
                             </View>
-                            <Text style={GlobalStyleSheet.formtitle}>Create an Account</Text>
-                            <Text style={GlobalStyleSheet.forndescription}>Please enter your credentials to access your account and detail</Text>
+                            <Text style={GlobalStyleSheet.formtitle}>Crear una cuenta</Text>
+                            <Text style={GlobalStyleSheet.forndescription}>Inngrese sus credenciales para acceder a su cuenta y detalles</Text>
                         </View>
                         <View style={[GlobalStyleSheet.loginarea, { backgroundColor: colors.card }]}>
-                            <Text style={[GlobalStyleSheet.inputlable, { color: colors.title }]}>Usename</Text>
+                            <Text style={[GlobalStyleSheet.inputlable, { color: colors.title }]}>Nombre de usuario</Text>
                             <View
                                 style={[
                                     GlobalStyleSheet.inputBox, {
@@ -81,7 +81,7 @@ const Register = ({ navigation } : RegisterScreenProps) => {
                                 />
                             </View>
 
-                            <Text style={[GlobalStyleSheet.inputlable, { color: colors.title }]}>Email</Text>
+                            <Text style={[GlobalStyleSheet.inputlable, { color: colors.title }]}>Correo electrónico</Text>
                             <View
                                 style={[
                                     GlobalStyleSheet.inputBox, {
@@ -111,7 +111,7 @@ const Register = ({ navigation } : RegisterScreenProps) => {
                                 />
                             </View>
 
-                            <Text style={[GlobalStyleSheet.inputlable, { color: colors.title }]}>Password</Text>
+                            <Text style={[GlobalStyleSheet.inputlable, { color: colors.title }]}>Contraseña</Text>
                             <View
                                 style={[
                                     GlobalStyleSheet.inputBox, {
@@ -175,12 +175,12 @@ const Register = ({ navigation } : RegisterScreenProps) => {
 
                             <View style={{ flex: 1 }}></View>
                             <View style={{ flexDirection: 'row', justifyContent: 'center',marginTop:15 }}>
-                                <Text style={{ ...FONTS.font, color: colors.text }}>Already have an account
+                                <Text style={{ ...FONTS.font, color: colors.text }}>Ya tienes una cuenta?
                                 </Text>
                                 <TouchableOpacity
                                     onPress={() => navigation.navigate('Login')}
                                 >
-                                    <Text style={{ ...FONTS.font, color: COLORS.primary, textDecorationLine: 'underline', textDecorationColor: '#2979F8', marginLeft: 5 }}>Sign In</Text>
+                                    <Text style={{ ...FONTS.font, color: COLORS.primary, textDecorationLine: 'underline', textDecorationColor: '#2979F8', marginLeft: 5 }}>Ingresa</Text>
                                 </TouchableOpacity>
                             </View>
                         </View>

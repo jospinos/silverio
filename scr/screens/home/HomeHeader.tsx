@@ -14,7 +14,7 @@ const HomeHeader = ({ theme } : any) => {
         <View style={[GlobalStyleSheet.flexalingjust, { height: 50 }]}>
             <View>
                 <Image
-                    style={{width:110,height:50,resizeMode:'contain' }}
+                    style={{width:140,height:100,resizeMode:'contain' }}
                     source={theme.dark ? IMAGES.logo3 : IMAGES.logo2 }
                 /> 
             </View>

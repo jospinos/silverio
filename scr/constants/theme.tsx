@@ -2,17 +2,17 @@ import { Dimensions } from "react-native";
 const { width, height } = Dimensions.get('screen');
 
 export const COLORS = {
-    primary: "#2979F8",
-    primaryLight: "#7BAEFF",
-    secondary: "#002C72",
-    success: "#0ecb81",
-    danger: "#ff4a5c",
-    info: "#627EEA",
-    warning: "#ffb02c",
-    yellow: "#fff346",
-    white: "#fff",
-    dark: "#2f2f2f",
-    light: "#E6E6E6",
+    primary: "#4CAF50",
+    primaryLight: "#81C784", 
+    secondary: "#8D6E63",
+    success: "#66BB6A",
+    danger: "#FF7043",
+    info: "#AED581",
+    warning: "#FDD835",
+    yellow: "#FFF176",
+    white: "#F5F5F5",
+    dark: "#4E342E",
+    light: "#ECEFF1",
 
     // light
     title: "#000",
@@ -58,8 +58,8 @@ export const SIZES = {
     width,
     height,
 
-    container : 800,
-    
+    container: 800,
+
     contentArea: {
         paddingTop: 70,
         paddingBottom: 150,
@@ -205,8 +205,8 @@ export const IMAGES = {
     smallpic9: require('../assets/images/small/small-9.jpg'),
     smallpic10: require('../assets/images/small/small-10.jpg'),
     smallpic11: require('../assets/images/small/small-11.jpg'),
-    
-    
+
+
 }
 
 export const VIDEO = {

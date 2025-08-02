@@ -116,8 +116,7 @@ export const GlobalStyleSheet = StyleSheet.create({
         ...FONTS.h6,
         ...FONTS.fontMedium,
         color: COLORS.white,
-        textAlign: 'center',
-    },
+    },  
     inputSecureIcon: {
         height: 22,
         width: 22,
